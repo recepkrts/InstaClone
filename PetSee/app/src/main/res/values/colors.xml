@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#455cde</color>
+    <color name="theme_color">#265a82</color>
+    <color name="background_gray">#ededed</color>
+    <color name="text_gray">#363636</color>
+    <color name="green">#00ad51</color>
+    <color name="instagram_bold_font">#3f729b</color>
+    <color name="colorPrimaryDark">#403d3d</color>
+    <color name="colorAccent">#c2bdbf</color>
+    <color name="colorBlack">#000000</color>
+</resources>

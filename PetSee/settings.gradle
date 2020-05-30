@@ -1,0 +1,2 @@
+rootProject.name='PetSee'
+include ':app'

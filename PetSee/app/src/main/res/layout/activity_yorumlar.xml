@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YorumlarActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_yorumlarActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rYorumlarActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_yorumlarActivity"
+        android:layout_above="@id/bottom_relative_yorumlarActivity"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_relative_yorumlarActivity"
+        android:background="#FFFFFF"
+        android:padding="4sp"
+        android:layout_alignParentBottom="true">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:id="@+id/profil_resmi_yorumlar"/>
+        <EditText
+            android:hint="Bir yorum ekleyin"
+            android:id="@+id/edt_yorumEkle_yorumlarActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:background="@android:color/transparent"
+            android:layout_toRightOf="@+id/profil_resmi_yorumlar"
+            android:layout_toLeftOf="@+id/txt_gonder_yorumlarActivity"
+            />
+        <TextView
+            android:id="@+id/txt_gonder_yorumlarActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Gönder"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+    
+</RelativeLayout>

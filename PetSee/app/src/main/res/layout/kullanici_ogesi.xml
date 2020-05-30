@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8sp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:id="@+id/profil_resmi"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lnr1"
+        android:layout_marginStart="5sp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/profil_resmi"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Adı"
+        android:id="@+id/txt_kullaniciAdi"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/profil_resmi"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ad"
+                android:id="@+id/txt_ad"
+                android:maxLines="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Soyad"
+                android:id="@+id/txt_soyad"
+                android:maxLines="1"
+                android:textColor="#000000"/>
+    </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="38sp"
+        android:id="@+id/btn_takipEt"
+        android:visibility="gone"
+        android:text="Takip Et"
+        android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

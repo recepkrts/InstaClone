@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_ayarlar"
+        android:title="Ayarlar"
+        android:icon="@drawable/ic_ayarlar"/>
+
+    <item
+        android:id="@+id/nav_hakkinda"
+        android:title="Hakkında"
+        android:icon="@drawable/ic_hakkinda"/>
+    <item
+        android:id="@+id/nav_cikis"
+        android:title="Çıkış"
+        android:icon="@drawable/ic_cikis"/>
+
+</menu>

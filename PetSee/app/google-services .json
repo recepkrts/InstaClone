@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "787582389219",
+    "firebase_url": "https://petsee-b0820.firebaseio.com",
+    "project_id": "petsee-b0820",
+    "storage_bucket": "petsee-b0820.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787582389219:android:61e3bf6265588794522ed6",
+        "android_client_info": {
+          "package_name": "com.example.petsee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787582389219-k1bf64mmvccq040avpncqusdlc4hg72u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0aVprzNC0lquF8us2_3X43CqaPNvRO8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787582389219-k1bf64mmvccq040avpncqusdlc4hg72u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

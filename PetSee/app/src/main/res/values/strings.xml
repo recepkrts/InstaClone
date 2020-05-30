@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PetSee</string>
+    <string name="ad">Adınız</string>
+    <string name="soyad">Soyadınız</string>
+    <string name="kAdi">Kullanıcı Adınız</string>
+    <string name="sifre">Şifreniz</string>
+    <string name="mail">E posta</string>
+    <string name="kayit">Kayıt Ol</string>
+    <string name="hakkinda">Hakkında</string>
+    <string name="action_settings">Seçenekler</string>
+    <string name="bildirim">Bildirimler</string>
+
+    <array name="bildirimler">
+        <item></item>
+        <item>Bildirim</item>
+        <item>Gizlilik</item>
+        <item>Dilk</item>
+    </array>
+    <array name="gizlilik">
+        <item></item>
+        <item>Bildirim</item>
+        <item>Gizlilik</item>
+        <item>Dilk</item>
+    </array>
+    <array name="dil">
+        <item></item>
+        <item>Bildirim</item>
+        <item>Gizlilik</item>
+        <item>Dilk</item>
+    </array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
